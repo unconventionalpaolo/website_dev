@@ -11,6 +11,9 @@
     --term-bg: #120800;
     --term-text: #F25C05;
     --term-glow: rgba(242, 92, 5, 0.4);
+	
+	/*Background Size*/
+	--bg-size: 100px;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; cursor: none !important; }
@@ -167,6 +170,9 @@ header.nav-bar {
 
 .s-home {
     text-align: justify;
+	background-image: url('../assets/img/background_orange.webp');
+    background-repeat: repeat;
+	background-size: --bg-size;
 }
 
 /* Linea in basso (ora gestita dal progress-line separato) */
@@ -420,6 +426,9 @@ header.nav-bar {
 /* Protocol Styles - Design V2 compatte */
 .s-proto {
     background-color: var(--bg);
+	background-image: url('../assets/img/background_orange.webp');
+    background-repeat: repeat;
+	background-size: --bg-size;
 }
 .time-rail { width: 100%; height: 2px; background: #e4ddcf; position: absolute; top: 4px; left: 0; z-index: 5; }
 .time-fill { position: absolute; top:0; left:0; height:100%; width:0%; background: var(--accent); }
@@ -544,6 +553,9 @@ header.nav-bar {
 /* Contacts - Design V2 */
 .s-cont {
     background-color: var(--bg);
+	background-image: url('../assets/img/background_orange.webp');
+    background-repeat: repeat;
+	background-size: --bg-size;
 }
 .s-cont .stage {
     position: relative;
