@@ -234,7 +234,7 @@ header.nav-bar {
 .stage { position: absolute; top: 40vh; bottom: 15vh; left: 8vw; right: 8vw; }
 
 /* Content Styles (Desktop) */
-.hero-title { font-family: 'Nata Sans', sans-serif; font-weight: 900; color: var(--text); font-size: 12vw; line-height: 0.75; letter-spacing: -5px; margin-left: -6px; margin-bottom: 10px; margin-top: 10px; }
+.hero-title { font-family: 'Nata Sans', sans-serif; font-weight: 900; color: var(--text); font-size: 12vw; line-height: 0.80; letter-spacing: -5px; margin-left: -6px; margin-bottom: 10px; margin-top: 10px; }
 .hero-title span { color: var(--accent); }
 
 /* Hero Content - Layout orizzontale tags + description */
@@ -271,6 +271,9 @@ header.nav-bar {
     display: flex;
     gap: 20px;
     flex-shrink: 0;
+	margin-top: 50px;
+	transform: scaleX(1.3);  /* stira orizzontalmente */
+    transform-origin: left;
 }
 .h-tag {
     font-family: 'Roboto Mono';
@@ -288,12 +291,15 @@ header.nav-bar {
     line-height: 1.5;
     font-weight: 600;
     color: var(--text);
+	margin-top: 10px;
 }
 
 .hero-desc h2 {
     font-weight: 900;
     font-size: 2rem;
     margin-bottom: 12px;
+	transform: scaleX(1.35);  /* stira orizzontalmente */
+    transform-origin: left;  /* ancoraggio a sinistra */
 }
 
 /* Robot Image Styles */
@@ -582,7 +588,8 @@ header.nav-bar {
 }
 .s-cont .tit-2 {
     color: var(--text);
-    font-size: 10rem;
+    font-size: 12vw;
+	line-height: 0.8;
 }
 .s-cont .tit-2 .highlight {
     color: var(--accent);
