@@ -247,7 +247,7 @@ header.nav-bar {
 
 .hero-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     gap: 60px;
     align-items: flex-start;
 }
@@ -265,6 +265,7 @@ header.nav-bar {
     font-weight: 600;
     color: var(--text);
     margin-top: 10px;
+	align-self: center;
 }
 
 .hero-tags {
