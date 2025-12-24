@@ -15,7 +15,7 @@ const LOGO_CONFIG = {
     },
     "sec-3": {
       "text": "unconventional",
-      "emphasizedText": "capital"
+      "emphasizedText": "market"
     },
     "sec-4": {
       "text": "unconventional",
