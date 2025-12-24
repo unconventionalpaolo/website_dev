@@ -597,11 +597,12 @@ header.nav-bar {
 .s-cont .sub-2 {
     text-transform: none;
     color: var(--text);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Nata Sans', sans-serif;
     font-weight: 500;
     text-align: left;
     line-height: 1.3;
+	margin-top: 30px;
 }
 .contact-stack { display: flex; flex-direction: column; align-items: flex-end; justify-content: center; gap: 22px; flex: 0 0 auto; }
 .c-btn {
