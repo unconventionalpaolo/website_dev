@@ -13,7 +13,7 @@
     --term-glow: rgba(242, 92, 5, 0.4);
 	
 	/*Background Size*/
-	--bg-size: 100px;
+	--bg-size: cover;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; cursor: none !important; }
